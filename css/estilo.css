@@ -37,6 +37,8 @@ body {
     
 }
 
+
+
 .lista-nav {
     list-style: none;
     display: flex;
@@ -54,6 +56,25 @@ body {
 .link-nav a {
     text-decoration: none;
     color: #fff;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+/* linha animada link */
+.link-nav a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+    opacity: 0.7;
+    }
+/* linha animada link */
+.link-nav a:hover::after{
+    width: 100%;
 }
 
 .headline-img {
@@ -61,7 +82,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
 }
 
 .headline-titulo {
@@ -83,7 +104,9 @@ body {
     width: 100%;
     opacity: 0.3;
 }
-
+section {
+    padding-top: 20px;
+}
 /* Artigo sobre mim */
 .sobremim-artic {
     padding: 40px 26px 0px 26px;
