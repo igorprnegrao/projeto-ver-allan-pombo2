@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/* reset da pág */
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +9,13 @@
     border: none;
 }
 
+/* config geral da pág. */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #016a8e;
 }
-
+/* config. do background */
 .background-image {
     background-image: url('../img/bg-site-allan.jpg');
     background-size: cover;
@@ -21,6 +23,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
 }
+/* alinhamento geral com display flex do cabeçalho da pág */
 
 .cabeçalho {
     display: flex;
@@ -28,17 +31,19 @@ body {
     justify-content: space-between;
     
 }
+/* margem da logo do cabeçalho */
 .link-logo {
     margin-top: 15px;
 }
+
+/* afastamento do menu de navegação direita e topo */
 .menu-nav {
     margin-top: 15px;
     margin-right: 45px;
     
 }
 
-
-
+/* alinhamento display flex da lista de navegação*/
 .lista-nav {
     list-style: none;
     display: flex;
@@ -47,13 +52,15 @@ body {
     padding-right: 100px;
 }
 
+/* ajuste de posição no links de navegação e cor  */
 .link-nav {
-    padding: 16px 30px;
+    padding: 16px 25px;
     color: white;
     cursor: pointer;
 }
-
+/* ajuste secundários dos links de navegação */
 .link-nav a {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     position: relative;
@@ -77,6 +84,7 @@ body {
     width: 100%;
 }
 
+/* ajustes de posição, tamanho e cor do headeline do conteudo main  */
 .headline-img {
     display: flex;
     align-items: center;
@@ -84,7 +92,7 @@ body {
     margin-top: 100px;
     margin-bottom: 85px;
 }
-
+/* ajustes do titulo do headeline-conteudo main  */
 .headline-titulo {
     color: whitesmoke;
     font-size: 4rem;
@@ -94,6 +102,8 @@ body {
     text-align: center;
     border-radius: 10px;
 }
+
+/* ajustes da imagem do headeline-conteudo main  */
 .allan-abraco {
     padding-right: 30px;
 }
@@ -104,6 +114,7 @@ body {
     width: 100%;
     opacity: 0.3;
 }
+/* section principal */
 section {
     padding-top: 20px;
 }
@@ -129,10 +140,12 @@ p {
     line-height: 1.5em;
 }
 
+/* tag main */
 .cont-principal {
     padding: 26px 15px 10px 26px;
 }
 
+/* artigo mandato */
 .mandato-artic {
     color: #fff;
     padding: 40px 26px 0px 26px;
