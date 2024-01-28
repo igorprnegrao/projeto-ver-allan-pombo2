@@ -95,6 +95,7 @@ body {
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 85px;
+    
 }
 /* ajustes do titulo do headeline-conteudo main  */
 .headline-titulo {
@@ -105,11 +106,13 @@ body {
     display: inline-block;
     text-align: center;
     border-radius: 10px;
+    
 }
 
 /* ajustes da imagem do headeline-conteudo main  */
 .allan-abraco {
     padding-right: 30px;
+    padding-left: 50px;
 }
 /* linha de separação entre os artigos */
 .linha {
