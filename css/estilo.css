@@ -159,8 +159,13 @@ p {
 
 
 
-/* artigo mandato */
-.mandato-artic {
+/* artigo Bandeiras */
+.bandeiras-artic {
     color: #fff;
     padding: 40px 26px 0px 26px;
+}
+
+.bandeiras-img {
+    float: left; /* imagem flutuante sobre o texto */
+    padding: 26px 15px 10px 0px;
 }
