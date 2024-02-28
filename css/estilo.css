@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* reset da pág */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #016a8e;
 }
+
+/* tag main */
+
+.main-principal {
+    padding: 26px 15px 10px 26px;
+    width: 90%;
+    margin: auto;
+    max-width: 1750px;
+}
+
 /* config. do background */
+
 .background-image {
     background-image: url('../img/bg-site-allan.jpg');
     background-size: cover;
@@ -32,14 +44,14 @@ body {
     
 }
 /* margem da logo do cabeçalho */
+
 .link-logo {
     margin-top: 15px;
     margin-left: 70px;
 }
 
-
-
 /* afastamento do menu de navegação direita e topo */
+
 .menu-nav {
     margin-top: 15px;
     margin-right: 45px;
@@ -47,6 +59,7 @@ body {
 }
 
 /* alinhamento display flex da lista de navegação*/
+
 .lista-nav {
     list-style: none;
     display: flex;
@@ -56,6 +69,7 @@ body {
 }
 
 /* ajuste de posição no links de navegação e cor  */
+
 .link-nav {
     padding: 16px 25px;
     color: white;
@@ -110,62 +124,102 @@ body {
 }
 
 /* ajustes da imagem do headeline-conteudo main  */
+
 .allan-abraco {
     padding-right: 30px;
     padding-left: 50px;
 }
 /* linha de separação entre os artigos */
+
 .linha {
     background: white;;
     height: 2px;
     width: 97%;
     opacity: 0.3;
     margin-left: 20px;
+    margin-top: 160px;
 }
 /* section principal */
 section {
-    padding-top: 20px;
+    padding-top: 34px;
+    
 }
+
+/*Artigo geral abaixo do main */
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Artigo sobre mim */
 .sobremim-artic {
-    padding: 40px 26px 0px 26px;
+    padding: 40px 26px 50px 26px;
     color: #fff;
     margin-bottom: 100px;
 }
+/* imagem sobre mim */
+.sobremim-img {
+    float: left; /* imagem flutuante sobre o texto */
+    padding: 26px 15px 10px 0px;
+}
 
+/*titulo h2 de todos os artigos*/
 .titulo-h2{
     font-size: 3rem;
     text-decoration: underline;
     text-underline-position: under; /* espaço entre a under-line e o texto */
     
 }
-.sobremim-img {
-    float: left; /* imagem flutuante sobre o texto */
-    padding: 26px 15px 10px 0px;
-}
 
+/*Parágrafo geral*/
 p {
     line-height: 1.5em;
 }
 
-/* tag main */
-.cont-principal {
-    padding: 26px 15px 10px 26px;
-    width: 90%;
-    margin: auto;
-    max-width: 1750px;
-
+.sobremim-p {
+    padding-top: 1px;
 }
 
-
+/*--------------------------------------------------------------------*/
 
 /* artigo Bandeiras */
 .bandeiras-artic {
+    padding: 40px 26px 50px 26px;
     color: #fff;
-    padding: 40px 26px 0px 26px;
+    margin-bottom: 100px;
 }
 
+/* imagem sobre mim */
 .bandeiras-img {
     float: left; /* imagem flutuante sobre o texto */
     padding: 26px 15px 10px 0px;
 }
+
+.bandeiras-p {
+    padding-top: 21px;
+}
+
+/*--------------------------------------------------------------------*/
+
+/* artigo Bandeiras */
+.casa-pombo-artic {
+    padding: 40px 26px 50px 26px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+/* imagem sobre mim */
+.casa-pombo-img {
+    float: left; /* imagem flutuante sobre o texto */
+    padding: 26px 15px 10px 0px;
+}
+
+.casa-pombo-p {
+    padding-top: 30px;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+
+
