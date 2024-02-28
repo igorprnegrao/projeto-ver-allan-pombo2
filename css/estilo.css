@@ -217,14 +217,14 @@ p {
 
 /*--------------------------------------------------------------------*/
 
-/* artigo Bandeiras */
+/* artigo casa pombo */
 .casa-pombo-artic {
     padding: 40px 26px 50px 26px;
     color: #fff;
     margin-bottom: 100px;
 }
 
-/* imagem sobre mim */
+/* imagem casa pombo */
 .casa-pombo-img {
     float: left; /* imagem flutuante sobre o texto */
     padding: 26px 15px 10px 0px;
@@ -235,6 +235,23 @@ p {
 }
 
 /*--------------------------------------------------------------------*/
+
+/* artigo casa pombo */
+.mandato-artic {
+    padding: 40px 26px 50px 26px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.mandato-img {
+    float: left; /* imagem flutuante sobre o texto */
+    padding: 26px 15px 10px 0px;
+}
+
+.mandato-p {
+    padding-top: 18px;
+
+
 
 
 
