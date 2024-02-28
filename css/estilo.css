@@ -139,13 +139,14 @@ body {
     margin-left: 20px;
     margin-top: 160px;
 }
-/* section principal */
+/* conf geral section */
+
 section {
     padding-top: 34px;
     
 }
 
-/*Artigo geral abaixo do main */
+/*config geral Artigo geral */
 article {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -171,9 +172,10 @@ article {
     
 }
 
-/*Parágrafo geral*/
+/*config geral Parágrafo*/
 p {
     line-height: 1.5em;
+    font-size: 1.5em;
 }
 
 .sobremim-p {
@@ -197,6 +199,20 @@ p {
 
 .bandeiras-p {
     padding-top: 21px;
+}
+
+.listabandeiras {
+    list-style: disc;
+    list-style-position: inside;
+    padding-top: 5px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.li-bandeiras {
+    padding-top: 21px;
+    font-size: 1.5em;
+    
 }
 
 /*--------------------------------------------------------------------*/
