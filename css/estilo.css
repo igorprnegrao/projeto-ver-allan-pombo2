@@ -294,6 +294,7 @@ footer {
 
 .footer-link {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /*hover das redes sociais*/
@@ -364,3 +365,33 @@ footer {
     color: #d9d9d9;
     font-size: 16px;
 }
+
+#input-email {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+
+#input-email input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input-email button {
+    background-color: #7f37c9;
+    border: none;
+    color: #fff;
+    padding: 0px 1.25rem;
+    font-size: 1.5rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+}
+
+#input-email button:hover {
+    opacity: 0.8;
+}
+
