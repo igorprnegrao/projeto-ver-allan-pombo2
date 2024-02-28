@@ -395,3 +395,13 @@ footer {
     opacity: 0.8;
 }
 
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #00000092;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+    color: #fff;
+}
+
