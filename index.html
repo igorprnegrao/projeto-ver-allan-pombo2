@@ -154,16 +154,19 @@
                     <a href="#" class="footer-link">Sede do PDT-Pa</a>
                 </li>
             </ul>
-            <div class="footer-email">
-                <h3>Cadastre seu E-mail</h3>
-                <p class="email-p">Adicione seu e-mail para receber notificações sobre o mandato</p>
-                <div id="input-email">
-                    <input type="email" id="footer-email">
-                    <button>
-                        <i class="fa-regular fa-envelope"></i>
-                    </button>
+            <form action="https://formsubmit.co/neurocientista@gmail.com" method="POST">
+                <div class="footer-email">
+                    <h3>Cadastre seu E-mail</h3>
+                    <p class="email-p">Adicione seu e-mail para receber notificações sobre o mandato</p>
+                    <div id="input-email">
+                        <label for="footer-email"></label>
+                        <input type="email" name="name" id="footer-email" required>
+                        <button type="submit">
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
 
         <div id="footer-copyright">
