@@ -114,11 +114,11 @@ body {
 /* ajustes do titulo do headeline-conteudo main  */
 .headline-titulo {
     color: whitesmoke;
+    text-align: left;
     font-size: 4rem;
     font-weight: 900;
     background-color: rgba(255, 255, 255, 0.2);
     display: inline-block;
-    text-align: center;
     border-radius: 10px;
     
 }
