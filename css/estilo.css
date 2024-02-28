@@ -406,3 +406,20 @@ footer {
     color: #fff;
 }
 
+.mandato-slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.mandato-slides {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.mandato-slides input  {
+    display: none;
+}
+
