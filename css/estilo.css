@@ -541,8 +541,24 @@ footer {
     background-color: #fff;
 }
 
+/*responsividade para tablet*/
 
 @media screen and (max-width: 1127px) {
+
+
+    
+    /*ajustando tamanho do slider*/
+    .mandato-slider {
+        width: 600px;
+        height: 300px;
+    }
+    
+    /*ajustando posição dos botões do slider*/
+    .manual-navigation-mandato {
+        width: 600px;
+        top: 300px;
+    }
+    
     /*ajustando as colunas do footer*/
     .footer-conteudo {
         grid-template-columns: repeat(2, 1fr);
@@ -553,6 +569,24 @@ footer {
     .footer-logo-img {
         left: 10px;
     }
+
+    /*ajustando as redes sociais*/
+    .footer-social-midia {
+            display: flex;
+            gap: 0.9rem;
+            font-size: 23px;
+            margin-top: 2rem;
+            left: 8px;
+    }
+    /*ajustando a posição "nosso endereços"*/
+    #footer-list {
+        left: 15px ;
+    }
+    /*ajustando a posição "cadastro"*/
+    .footer-email {
+        left: 18px;
+    }
+    
 
 }
 
