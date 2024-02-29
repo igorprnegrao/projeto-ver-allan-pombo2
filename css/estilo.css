@@ -193,14 +193,17 @@ p {
 .bandeiras-artic {
     padding: 40px 26px 50px 26px;
     color: #fff;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 /* imagem sobre mim */
 .bandeiras-img {
     float: left; /* imagem flutuante sobre o texto */
-    padding: 26px 15px 10px 0px;
+    padding: 68px 15px 10px 0px;
+    margin-right: 99px;
 }
+
+
 
 .bandeiras-p {
     padding-top: 21px;
@@ -210,15 +213,26 @@ p {
 .listabandeiras {
     list-style: disc;
     list-style-position: inside;
-    padding-top: 5px;
-    text-decoration: underline;
-    text-underline-position: under;
+    padding-top: 39px;
+    
+    /* text-decoration: underline;
+    text-underline-position: under; */
 }
 
 .li-bandeiras {
     padding-top: 21px;
     font-size: 1.5em;
+    margin-bottom: 20px;
     
+}
+
+#linha-bandeira {
+    background: white;
+    height: 2px;
+    width: 97%;
+    opacity: 0.3;
+    margin-left: 20px;
+    margin-top: 80px;
 }
 
 /*--------------------------------------------------------------------*/
@@ -446,6 +460,7 @@ footer {
 .slide-mandato {
     width: 25%;
     position: relative;
+    transition: 3s;
 }
 
 /* posição as bolinhas de navegação */
