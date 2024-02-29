@@ -542,10 +542,15 @@ footer {
 
 
 @media screen and (max-width: 1127px) {
+    /*ajustando as colunas do footer*/
     .footer-conteudo {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
         align-items: center;
+    }
+    /*reposicionando a logo*/
+    .footer-logo-img {
+        left: 10px;
     }
 
 }
