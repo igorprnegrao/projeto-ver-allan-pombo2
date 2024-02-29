@@ -278,7 +278,7 @@ p {
 footer {
     letter-spacing: 1px;
     font-family: 'Inter', sans-serif;
-    width: 100%;
+    width: 100wh;
 }
 
 .footer-conteudo {
@@ -541,3 +541,20 @@ footer {
 }
 
 
+@media screen and (max-width: 1127px) {
+    .footer-conteudo {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .footer-conteudo {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+    
+}
