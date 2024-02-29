@@ -494,6 +494,24 @@ footer {
     position: absolute;
     width: 800px;
     margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto-mandato div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1-mandato:checked ~ .navigation-auto-mandato .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2-mandato:checked~.navigation-auto-mandato .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3-mandato:checked~.navigation-auto-mandato .auto-btn3 {
+    background-color: #fff;
 }
 
 
