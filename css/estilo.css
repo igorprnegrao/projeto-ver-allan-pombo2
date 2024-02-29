@@ -349,10 +349,12 @@ footer {
     left: 13px;
 }
 
+
 #footer-list .footer-link:hover {
     color: #7f37c9;
 }
 
+/* posição da caixa de email e texto e botão */
 .footer-email {
     display: flex;
     flex-direction: column;
@@ -361,16 +363,19 @@ footer {
     
 }
 
+/* estilização do parágrafo do email */
 .email-p {
     color: #d9d9d9;
     font-size: 16px;
 }
 
+/* posição do formulario de email */
 #input-email {
     display: flex;
     align-items: center;
     background-color: #000;
 }
+/* ajuste da caixa do input do email */
 
 #input-email input {
     all: unset;
@@ -379,6 +384,7 @@ footer {
     
 }
 
+/* ajuste do botão do formulario de email */
 #input-email button {
     background-color: #7f37c9;
     border: none;
@@ -396,6 +402,8 @@ footer {
     opacity: 0.8;
 }
 
+/* ajustes do copyright */
+
 #footer-copyright {
     display: flex;
     justify-content: center;
@@ -405,7 +413,7 @@ footer {
     font-weight: 100;
     color: #fff;
 }
-
+/* tamanho e sobreposição do slide  */
 .mandato-slider {
     margin: 0 auto;
     width: 800px;
@@ -413,6 +421,7 @@ footer {
     overflow: hidden;
 }
 
+/* tamanho e sobreposição das imagens do slide */
 .mandato-slides {
     width: 400%;
     height: 400px;
@@ -428,6 +437,7 @@ footer {
     position: relative;
 }
 
+/* posição as bolinhas de navegação */
 .manual-navigation-mandato {
     position: absolute;
     width: 800px;
@@ -436,6 +446,7 @@ footer {
     justify-content: center;
 }
 
+/* estilizando as bolinhas de navegação */
 #radio-btn {
     border: 2px solid #fff;
     padding: 5px;
@@ -444,9 +455,13 @@ footer {
     transition: 1s;
 }
 
+/* espaço entre as bolinhas de navegação */
+
 #radio-btn:not(:last-child) {
     margin-right: 40px;
 }
+
+/* espaço entre as bolinhas de navegação */
 
 #radio-btn:hover {
     background-color: #fff;
@@ -463,3 +478,7 @@ footer {
 #radio3-mandato:checked ~ .first {
     margin-left: -50%;
 }
+
+/* add radio 4 depois */
+
+
