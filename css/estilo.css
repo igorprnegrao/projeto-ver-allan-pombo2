@@ -545,8 +545,15 @@ footer {
 
 @media screen and (max-width: 1127px) {
 
+    /*config geral Parágrafo*/
+    p {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
 
-    
+
+    /*Parei em MANDATO*/
+
     /*ajustando tamanho do slider*/
     .mandato-slider {
         width: 600px;
