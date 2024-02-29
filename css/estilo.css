@@ -452,10 +452,14 @@ footer {
     background-color: #fff;
 }
 
-#radio1-mandato:checked~.first {
+#radio1-mandato:checked ~ .first {
     margin-left: 0;
 }
 
-#radio2-mandato:checked~.first {
+#radio2-mandato:checked ~ .first {
     margin-left: -25%;
+}
+
+#radio3-mandato:checked ~ .first {
+    margin-left: -50%;
 }
