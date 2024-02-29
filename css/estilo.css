@@ -414,7 +414,7 @@ footer {
 }
 
 .mandato-slides {
-    width: 100%;
+    width: 400%;
     height: 400px;
     display: flex;
 }
@@ -423,3 +423,39 @@ footer {
     display: none;
 }
 
+.slide-mandato {
+    width: 25%;
+    position: relative;
+}
+
+.manual-navigation-mandato {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+#radio-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#radio-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio-btn:hover {
+    background-color: #fff;
+}
+
+#radio1-mandato:checked~.first {
+    margin-left: 0;
+}
+
+#radio2-mandato:checked~.first {
+    margin-left: -25%;
+}
