@@ -183,6 +183,8 @@ p {
 
 .sobremim-p {
     padding-top: 1px;
+    text-indent: 25px;
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------------*/
@@ -202,6 +204,7 @@ p {
 
 .bandeiras-p {
     padding-top: 21px;
+    
 }
 
 .listabandeiras {
@@ -229,12 +232,14 @@ p {
 
 /* imagem casa pombo */
 .casa-pombo-img {
-    float: left; /* imagem flutuante sobre o texto */
+    float: right; /* imagem flutuante sobre o texto */
     padding: 26px 15px 10px 0px;
 }
 
 .casa-pombo-p {
-    padding-top: 30px;
+    padding-top: 40px;
+    text-indent: 25px;
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------------*/
@@ -246,10 +251,7 @@ p {
     margin-bottom: 100px;
 }
 
-.mandato-img {
-    float: left; /* imagem flutuante sobre o texto */
-    padding: 26px 15px 10px 0px;
-}
+
 
 .mandato-p {
     padding-top: 18px;
@@ -270,6 +272,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    margin-top: -11px;
 }
 
 .footer-contatos h2 {
