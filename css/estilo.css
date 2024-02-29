@@ -253,6 +253,8 @@ p {
 
 .mandato-p {
     padding-top: 18px;
+    text-indent: 25px;
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------------*/
@@ -413,12 +415,18 @@ footer {
     font-weight: 100;
     color: #fff;
 }
+/*-------------------------------------------------------------------*/
 /* tamanho e sobreposição do slide  */
 .mandato-slider {
     margin: 0 auto;
     width: 800px;
     height: 400px;
     overflow: hidden;
+}
+
+.mandato-slider {
+    margin-top: 80px;
+    border: 5px solid #fff;
 }
 
 /* tamanho e sobreposição das imagens do slide */
