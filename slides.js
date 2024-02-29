@@ -7,7 +7,7 @@ document.getElementById("radio1-mandato").checked = true;
 // setIntervalo ativa a cada 3 mil milissegundos = 3 seg
 setInterval( function() {
     proximaImagem(); //chamo a função proximaImagem() a cada ativação do setInterval
-}, 3000);
+}, 4000);
 
 // função que vai acumulando o contador de 1 em 1 
 function proximaImagem() {
