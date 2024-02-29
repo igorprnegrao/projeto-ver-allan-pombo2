@@ -481,4 +481,19 @@ footer {
 
 /* add radio 4 depois */
 
+/* configurando o menu de imagens automatico */
+.navigation-auto-mandato div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+/* posição do menu de imagens automatico */
+.navigation-auto-mandato {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+}
+
 
