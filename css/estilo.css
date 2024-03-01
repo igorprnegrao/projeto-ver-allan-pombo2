@@ -544,7 +544,7 @@ footer {
 
 /*responsividade para tablet*/
 
-@media screen and (max-width: 1127px) {
+@media (max-width: 1127px) {
 
     /*config geral Parágrafo*/
     p {
@@ -599,7 +599,7 @@ footer {
 }
 
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .footer-conteudo {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
